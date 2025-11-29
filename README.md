@@ -1,10 +1,10 @@
-PokéCare – Research & Training Center (PRTC)
-Sistem simulasi pelatihan Pokémon berbasis PHP OOP dan session.
+PokéCare – Research & Training Center (PRTC) <br>
+Sistem simulasi pelatihan Pokémon berbasis PHP OOP dan session. <br>
 
 👤 Data Diri
 Nama Lengkap  : David Ananta Nugraha <br>
-NIM	          : H1H024025
-Shift Awal    : A
+NIM	          : H1H024025 <br>
+Shift Awal    : A 
 Shift Akhir   : D
 
 📌 Deskripsi Singkat Aplikasi
