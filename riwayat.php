@@ -24,8 +24,8 @@ $history = $_SESSION['history'] ?? [];
                 <th>Waktu</th>
                 <th>Jenis Latihan</th>
                 <th>Intensitas</th>
-                <th>Level (Awal -> Akhir)</th>
-                <th>HP (Awal -> Akhir)</th>
+                <th>Level (Awal &rarr; Akhir)</th>
+                <th>HP (Awal &rarr; Akhir)</th>
             </tr>
         </thead>
         <tbody>
