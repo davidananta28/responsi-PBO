@@ -1,0 +1,204 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
+}
+
+.pokemon-avatar {
+  flex: 1;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.pokemon-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2.5px solid #ffcc00;
+}
+
+.card-info {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.card-info h3 {
+  color: #cc0000;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.btn,
+button[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3b4cca;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn:hover,
+button[type="submit"]:hover {
+  background-color: #2a3c98;
+  transform: translateY(-1px);
+}
+
+.btn-hist {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.btn-hist:hover {
+  background-color: #e6b800;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table td {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+/*latihan*/
+form {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 25px;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3b4cca;
+}
+
+form select,
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.success {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  gap: 15px;
+  align-items: center; /* Pusatkan vertikal */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-success-img {
+  flex-shrink: 0;
+  object-fit: contain;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 2px;
+  background-color: white;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #cc0000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: #ad0909;
+  transform: translateY(-1px);
+}
+
+.nav-link-hist {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.nav-link-hist:hover {
+  background-color: #e6b800;
+}
+
+/*riwayat*/
+table {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 2px solid #3b4cca;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+  background-color: #3b4cca;
+  color: white;
+  padding: 12px 8px;
+  border: 1px solid #2a3c98;
+  text-align: center;
+}
+
+tbody td {
+  padding: 10px 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f8ff;
+}
