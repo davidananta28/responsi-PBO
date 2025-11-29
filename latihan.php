@@ -5,7 +5,6 @@ require 'pokemon.php';
 $pokemon = unserialize($_SESSION['myPokemon']);
 $history = $_SESSION['history'] ?? [];
 
-// Menghapus inisialisasi $message = "";
 $lvl_before = 0;
 $hp_before = 0;
 
@@ -32,9 +31,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     ];
 
     $_SESSION['history'] = $history;
-
-    // TIDAK LAGI MENGGUNAKAN $message
-    // Kita bisa menggunakan $type untuk memastikan ada data yang dikirim dan latihan berhasil
 }
 ?>
 

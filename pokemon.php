@@ -56,12 +56,10 @@ class Wartortle extends Pokemon
     public function train($intensity)
     {
         parent::train($intensity);
-        // Bonus khusus tipe Water: Tambahan HP ekstra
         $this->hp += 5;
     }
 }
 
-// --- Inisialisasi Objek dalam Session ---
 if (!isset($_SESSION['myPokemon'])) {
     $_SESSION['myPokemon'] = serialize(new Wartortle());
     $_SESSION['history'] = [];
